@@ -56,13 +56,13 @@ public class AutoRestart
             } catch (Exception e) {
                 return null;
             }
-            System.out.println("explorer count: " + explorerBlockcount);
+            //System.out.println("explorer count: " + explorerBlockcount);
             return explorerBlockcount <= (blockcount + 10);
         }
         
         public Integer isCoindRunning() throws IOException {
             String blockcount = plain.exec(coinCommandPrefix + "-cli getblockcount").trim();
-            System.out.println(blockcount);
+            //System.out.println(blockcount);
             try {
                 return Integer.parseInt(blockcount);
             } catch (Exception e) {
@@ -144,7 +144,7 @@ public class AutoRestart
         int sleep;
         try {
             if(args.length > 2) {
-             sleep = Integer.parseInt(args[1])*60000;   
+             sleep = Integer.parseInt(args[1].trim())*60000;   
             } else {
                 sleep = 600000;
             }
@@ -152,9 +152,9 @@ public class AutoRestart
             sleep = 600000;
         }
         while(true) {
-            System.out.println("file: " + args[0]);
+            System.out.println("running check for servers in: " + args[0] + " every "+ (sleep/60000) + " mins");
             checkCoinServers(args[0]);
-            Thread.sleep(600000);
+            Thread.sleep(sleep);
         }
     }
 
