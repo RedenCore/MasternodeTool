@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="lib/jcabi-ssh-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/local_policy.jar"/>
+	<classpathentry kind="lib" path="lib/US_export_policy.jar"/>
+	<classpathentry kind="lib" path="lib/jsch-0.1.54.jar"/>
+	<classpathentry kind="lib" path="lib/cactoos-0.16.jar"/>
+	<classpathentry kind="lib" path="lib/aspectjrt-1.8.4.jar"/>
+	<classpathentry kind="lib" path="lib/jcabi-aspects-0.22.jar"/>
+	<classpathentry kind="lib" path="lib/jcabi-log-0.17.1.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.7.5.jar"/>
+	<classpathentry kind="lib" path="lib/validation-api-1.1.0.Final.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
