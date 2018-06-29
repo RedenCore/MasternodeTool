@@ -30,8 +30,12 @@ for example: run.bat 1 to cycle every min
 
 Donation: if you found this useful, please consider donate it in one or more to the below addresses
 ------------------
-btc:18ThpppgPYtcs7J46B8dywxWrHFcpwaLwS
-eth:0x4c77b25273632Dc38e0514D6aFCAb95b9F57DA42
-ltc:LPH3MECyLsoZEBQppHKphzSARovyU3kUJT
-rvn:REiKBxcTDfbZnkDxXxVR3vzW8FZEjS2waS
-reden:RNGobMGPS7DHmUZfqotG2RtLJimLAsjMJV
+btc:  18ThpppgPYtcs7J46B8dywxWrHFcpwaLwS
+
+eth:  0x4c77b25273632Dc38e0514D6aFCAb95b9F57DA42
+
+ltc:  LPH3MECyLsoZEBQppHKphzSARovyU3kUJT
+
+rvn:  REiKBxcTDfbZnkDxXxVR3vzW8FZEjS2waS
+
+reden:  RNGobMGPS7DHmUZfqotG2RtLJimLAsjMJV
